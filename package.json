@@ -4,6 +4,9 @@
   "module": "dist/fizzbuzz.js",
   "license": "MIT",
   "description": "Simple app to show that I know how to program",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "clean": "rimraf ./dist ./coverage",
     "prebuild": "npm run clean",
